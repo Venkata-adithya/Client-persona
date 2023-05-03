@@ -1,0 +1,100 @@
+body{
+    background-color: #8294c4;
+    font-family: 'Markazi Text', serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+}
+nav{
+    display: flex;
+    margin: auto;
+    padding:1%;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5%;
+}
+span{
+    display: inline-block;
+    margin: 10px 20px;
+}
+@media only screen and (max-width: 600px) {
+    span{
+        display: inline-block;
+        margin: 1px;
+    }
+  }
+span a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+    section {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+article{
+    flex: 1;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 5%;
+    height: auto;
+    width: auto;
+    overflow:hidden;
+}
+.container{
+    position: relative;
+}
+.heading{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+}
+.para{
+    position: absolute;
+    bottom:26%;
+    left: 5%;
+    right: 4%;
+}
+@media only screen and (max-width: 600px) {
+    .heading{
+        font-size: larger;
+        bottom: 50%;
+    }
+    .para{
+        font-size: small;
+        bottom: 28%;
+    }
+}    
+footer{
+    display: flex;
+    justify-content:center;
+    margin: auto;
+}
+footer span{
+    flex: 1;
+    padding: 3%;
+    margin: 1%;
+}
